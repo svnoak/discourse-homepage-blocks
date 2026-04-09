@@ -21,7 +21,7 @@ categories_title:
 #   Other Site|https://other.example.com|Come check it out
 external_sites:
   default: ""
-  type: textarea
+  type: string
 
 # Label shown above the external sites row. Leave blank to hide the heading.
 external_sites_title:
