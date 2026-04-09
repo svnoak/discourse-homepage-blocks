@@ -1,0 +1,25 @@
+// Mobile overrides — slightly tighter, full-width cards on small screens
+
+.homepage-blocks-wrapper {
+  padding: 14px 0 4px;
+  gap: 18px;
+}
+
+.hb-pill {
+  font-size: 0.84rem;
+  padding: 0.42em 0.9em;
+}
+
+// Cards stack vertically on small screens
+.hb-section--external .hb-row {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hb-card {
+  width: 100%;
+}
+
+.hb-card__desc {
+  display: none;
+}

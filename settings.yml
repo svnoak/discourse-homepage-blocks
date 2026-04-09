@@ -1,0 +1,35 @@
+# ──────────────────────────────────────────────
+# Homepage Blocks — Theme Component Settings
+# ──────────────────────────────────────────────
+
+# Comma-separated category IDs to feature as pills.
+# Find a category's ID in Admin > Categories.
+# Example: 5,12,3
+featured_category_ids:
+  default: ""
+  type: string
+
+# Label shown above the category pills row. Leave blank to hide the heading.
+categories_title:
+  default: "Browse categories"
+  type: string
+
+# External sites to highlight as cards.
+# One entry per line, pipe-separated: Name|URL|Short description
+# Example:
+#   My Tool|https://tool.example.com|A handy utility
+#   Other Site|https://other.example.com|Come check it out
+external_sites:
+  default: ""
+  type: textarea
+
+# Label shown above the external sites row. Leave blank to hide the heading.
+external_sites_title:
+  default: "Our projects"
+  type: string
+
+# Show blocks only on the forum homepage (recommended).
+# Set to false to show on every discovery page (latest, top, new, etc.).
+homepage_only:
+  default: true
+  type: bool
